@@ -1,7 +1,3 @@
-Spring 2020, CS470 - Programming Languages
-Final Project - Python Interpreter
-Student: Juan Martinez
-
 HOW TO COMPILE CODE
 -------------------
   1. Use the 'make' command to make the executable 'statement.x'
