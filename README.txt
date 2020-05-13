@@ -1,88 +1,101 @@
-HOW TO COMPILE CODE
--------------------
-  1. Use the 'make' command to make the executable 'statement.x'
-  2. Then run using './statement.x tests/inputfile.py'
+# Python Interpreter
 
-  You can also run all the tests using the bash script 'inputs.sh' which can be ran
-  using './inputs.sh'
+Python interpreter built in C++.
 
-  This will go through all the test inputs, and you have to press enter after each
-  one to continue.
+## How to compile code
 
-FEATURES THAT WORK and CORRESPONDING TESTS
-------------------------------------------
-  * ALL TESTS ARE IN THE SUBDIRECTORY 'tests'
-  * ONLY SPACES ARE ALLOWED FOR INDENTING
-  * There is one test that reports an ident error and is suppose to do that
+1. Use the ```make``` command to make the executable ```statement.x```
+
+## Usage
+
+1. Then run using ```./statement.x tests/inputfile.py```
+
+You can also run all the tests using the bash script ```inputs.sh``` which can be ran using ```./inputs.sh```
+
+  This will go through all the test inputs, and you have to press enter after each one to continue.
+
+You can also make your own test file.
+
+## Features that work and corresponding tests
+  * All tests are in the subdirectory ```tests```
+  * **ONLY SPACES** are **ALLOWED** for indenting.
+  * There is one test that reports an ident error and is suppose to do that.
  
-  A) Data types: integers, doubles, booleans (which are represented as integers...), strings and their various operations
+  **A)** Data types: integers, doubles, booleans (which are represented as integers...), strings and their various operations
      such as addition, subtraction, multiplication, division and integer division, modulus,
      relational operators (<, <=, <>, !=, == etc.), string concatenation and the like are supported.
-     Both assignment statements and print statements can use what was stated above and any other statement using a 'test'.
-     
-     INPUT FILES TO TEST: input1.py 
-                          input2.py
-                          input3.py
-			  input12.py
+     Both assignment statements and print statements can use what was stated above and any other statement using a test.
 
-  B) If statements: If statements work as expected, you can nested ifs as well, ifs without elif or else. Indentation should
+### Input files for testing:
+* input1.py 
+* input2.py
+* input3.py
+* input12.py
+
+**B)** If statements: If statements work as expected, you can have nested ifs as well, ifs without elif or else. Indentation should
      work as expected, but no tabs are allowed, only spaces.
 
-     INPUT FILES TO TEST: input4.py
-       			  input5.py
-			  input6.py
-			  input7.py
-			  input8.py
-		 	  input9.py
-			  input10.py
-			  input11.py
+### Input files for testing:
+* input4.py
+* input5.py
+* input6.py
+* input7.py
+* input8.py
+* input9.py
+* input10.py
+* input11.py
 
-  C) For statements: For statements work as expected, can have nested for statements as well. Range can take 1, 2, or 3 arguments.
+**C)** For statements: For statements work as expected, can have nested for statements as well. Range can take 1, 2, or 3 arguments.
 
-     INPUT FILES TO TEST: input1.py
-		          input3.py
-		          input4.py
-     			  input13.py
-			  input14.py
-			  input17.py
+### Input files for testing: 
+* input1.py
+* input3.py
+* input4.py
+* input13.py
+* input14.py
+* input17.py
 
-  D) Arrays: Arrays work, empty arrays and same type arrays work. Array operations work pop, (append, push), subscripting or indexing
-     works as well. Arrays passed by reference in functions. 
+**D)** Arrays: Arrays work, empty arrays and same type arrays work. Array operations work pop, (append, push), subscripting or indexing works as well. Arrays passed by reference in functions. 
 
-     INPUT FILES TO TEST: input14.py
-			  input15.py
-   			  input16.py
+### Input files for testing: 
+* input14.py
+* input15.py
+* input16.py
 
-  E) Functions: Most functions work. However no recursion works yet. Scopes should work appropriately. 
+**E)** Functions: Most functions work. However, no recursion works yet. Scopes should work appropriately. 
  
-     INPUT FILES TO TEST: input19.py
-			  input20.py
-   			  input21.py
+### Input files for testing:  
+* input19.py
+* input20.py
+* input21.py
 
-  F) Other:
+**F)** Other:
        These were used for testing indentations (although technically all of them do...)
 
-       INPUT FILES TO TEST: input17.py
-                            input18.py
-
-  Please look the tests before running so you can expect what is suppose to be the output, and/or stored
+### Input files for testing:  
+* input17.py
+* input18.py
+---
+Please look the tests before running so you can expect what is suppose to be the output, and/or stored
   in the symbol tables.
 
-  * Some tests have aspects of more than 1 features
+* Some tests have aspects of more than 1 features
 
-FEATURES THAT DON'T WORK and CORRESPONDING TESTS
-------------------------------------------------
-  Recursive functions are not implemented so they do not work.
-  There may be a bug with print statements while using parentheses in some specific cases.
+## Features that don't work
+Recursive functions are not implemented so they do not work.
+There may be a bug with print statements while using parentheses in some specific cases.
   
-  TODOS:
-    There are some TODOs commented in the code. Some include, checking array has same type of elements, checking if
-    number of arguments are same as number of parameters.
+### TODOS:
+
+There are some TODOs commented in the code. Some include checking the array so it has the same type of elements, checking if the number of arguments is the same as the number of parameters.
+
+---
 
 Feel free to make any of your own tests to test! For now, I am sure I reported everything that works or does not work, 
-but I might could have possibly skipped something since this was a big project and lots of code. Either way, I got to learn a lot!
+but I might have possibly skipped something since this was a big project and lots of code. Either way, I got to learn a lot!
 
-SAMPLE OUTPUT BEGIN:
+## SAMPLE OUTPUT BEGIN:
+```Python
 Using test input ./tests/input15.py file...
 -----------BEGIN PRINT CODE INPUT-----------
 c = 2
@@ -143,5 +156,6 @@ y = "Programming Languages and Data Structures"
 z = 31
 -----------END SYMBOL TABLE OUTPUT-----------
 Press enter to continue
-SAMPLE OUTPUT END:
+```
+## SAMPLE OUTPUT END:
 
