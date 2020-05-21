@@ -17,7 +17,7 @@ You can also run all the tests using the bash script ```inputs.sh``` which can b
 You can also make your own test file.
 
 ## Features that work and corresponding tests
-  * All tests are in the subdirectory ```tests```
+  * All tests are in the subdirectory ```tests```.
   * **ONLY SPACES** are **ALLOWED** for indenting.
   * There is one test that reports an ident error and is suppose to do that.
  
