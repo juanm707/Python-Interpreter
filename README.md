@@ -1,6 +1,6 @@
 # Python Interpreter
 Python interpreter built in C++.
-[Sample](#sample)
+[Sample](#sample-output-begin:)
 
 ## How to compile code
 
