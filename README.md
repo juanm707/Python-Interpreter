@@ -1,8 +1,6 @@
 # Python Interpreter
-#some-markdown-heading
-
 Python interpreter built in C++.
-[create an anchor](#anchors-in-markdown)
+[Sample](#sample)
 
 ## How to compile code
 
@@ -95,7 +93,7 @@ There are some TODOs commented in the code. Some include checking the array so i
 
 Feel free to make any of your own tests to test! For now, I am sure I reported everything that works or does not work, 
 but I might have possibly skipped something since this was a big project and lots of code. Either way, I got to learn a lot!
-
+#sample
 ## SAMPLE OUTPUT BEGIN:
 ```Python
 Using test input ./tests/input15.py file...
